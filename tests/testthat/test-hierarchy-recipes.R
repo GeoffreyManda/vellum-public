@@ -66,7 +66,7 @@ test_that("chord ribbons build from a named adjacency matrix", {
 test_that("chord labels stay separated and inside their solved bounds", {
   labs <- c(
     "Clinical services", "Community prevention", "Systems and data",
-    "Research translation", "Patient partnership", "Quality improvement"
+    "Research translation", "Patient partnership", "Quality gains"
   )
   m <- matrix(3, length(labs), length(labs), dimnames = list(labs, labs))
   diag(m) <- 0

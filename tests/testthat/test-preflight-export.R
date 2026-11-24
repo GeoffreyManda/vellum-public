@@ -10,14 +10,16 @@ test_that("a default ggplot2 figure fails Nature, and the report says why", {
   expect_match(r$checks$text_max$detail, "axis.title.x 11.00 pt")
 })
 
-test_that("a figure built for the venue passes cleanly", {
+test_that("preflight reports whether the requested venue fonts are available", {
   p <- fit_width(ggplot(mtcars, aes(wt, mpg)) + geom_point() + theme_venue("nature"),
                  "nature", "single", quiet = TRUE)
   r <- venue_check(p, "nature", quiet = TRUE)
-  expect_equal(r$verdict, "pass")
+  available <- systemfonts::system_fonts()$family
+  expected_font <- if (any(venue_spec("nature")$families %in% available)) "pass" else "warn"
+  expect_equal(r$verdict, expected_font)
   expect_equal(r$checks$text_min$verdict, "pass")
   expect_equal(r$checks$text_max$verdict, "pass")
-  expect_equal(r$checks$family$verdict, "pass")
+  expect_equal(r$checks$family$verdict, expected_font)
   expect_equal(r$checks$rules$verdict, "pass")
   expect_equal(r$checks$size_width$verdict, "pass")
   expect_equal(r$checks$tag$verdict, "pass")

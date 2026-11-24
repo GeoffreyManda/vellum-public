@@ -26,7 +26,7 @@ jobs:
         run: |
           install.packages("remotes")
           remotes::install_deps(dependencies = NA, upgrade = "never")
-          install.packages(c("testthat", "vdiffr", "svglite", "ragg", "jsonlite", "png", "knitr", "rmarkdown"))
+          install.packages(c("testthat", "vdiffr", "svglite", "ragg", "jsonlite", "png", "knitr", "rmarkdown", "patchwork"))
       - name: Install package with tests
         run: R CMD INSTALL --install-tests .
       - name: Run installed tests
