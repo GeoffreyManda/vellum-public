@@ -1,0 +1,62 @@
+Third-party material bundled in vellum
+======================================
+
+vellum itself is MIT licensed (see DESCRIPTION and LICENSE). The following
+material originates elsewhere and is redistributed under its own terms.
+
+
+1. The `ltc` colour palettes  (R/palettes-ltc.R)
+------------------------------------------------
+
+Thirty-two colour palettes are transcribed from the `ltc` R package by Loukas
+Theodosiou, retrieved 2026-08-05 at version 0.4.0.9000 from
+https://github.com/loukesio/ltc-color-palettes. They are exposed in vellum
+under the `ltc` palette family. The MIT licence of that package is reproduced
+in full below, as its terms require.
+
+    MIT License
+
+    Copyright (c) 2021 ltc authors
+
+    Permission is hereby granted, free of charge, to any person obtaining a
+    copy of this software and associated documentation files (the "Software"),
+    to deal in the Software without restriction, including without limitation
+    the rights to use, copy, modify, merge, publish, distribute, sublicense,
+    and/or sell copies of the Software, and to permit persons to whom the
+    Software is furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+    DEALINGS IN THE SOFTWARE.
+
+Only the palette values and their backstories are taken. None of the `ltc`
+package's functions are included: vellum's own colour engine, CVD simulation
+and audit are used instead.
+
+Two of the thirty-two are not original to `ltc` and are noted as such in the
+catalogue: `heatmap2` and `heatmap3` are ColorBrewer's RdBu 5-class and RdYlBu
+5-class schemes, by Cynthia Brewer, Mark Harrower and The Pennsylvania State
+University (https://colorbrewer2.org), which are licensed under the Apache
+License 2.0. A third, `trio3`, is the first three Okabe-Ito colours.
+
+
+2. Paul Tol's colour schemes  (R/palettes.R)
+--------------------------------------------
+
+The `tol` palette family is transcribed from Paul Tol's SRON technical note
+(https://sronpersonalpages.nl/~pault/), which places the schemes in the public
+domain for free use.
+
+
+3. Okabe-Ito  (R/palettes.R)
+----------------------------
+
+The Okabe-Ito colour-universal-design palette is published by Masataka Okabe
+and Kei Ito at https://jfly.uni-koeln.de/color/ for free use with attribution.

@@ -1,0 +1,66 @@
+Package: vellum
+Type: Package
+Title: Publication-Grade Scientific Figures with Executable Venue Specifications
+Version: 0.5.0
+Authors@R: c(
+    person("Vellum", "Authors", role = c("aut", "cre"),
+           email = "techreyanda@gmail.com"),
+    person("Loukas", "Theodosiou", role = c("ctb", "cph"),
+           comment = c(ORCID = "0000-0001-6418-4652",
+                       "Author of the ltc colour palettes bundled in R/palettes-ltc.R; see LICENSE.note")))
+Description: A figure destined for a journal is a physical artefact with a
+    published specification, and 'vellum' treats that specification as
+    executable. It provides a provenance-tracked registry of journal artwork
+    specifications, physical-unit converters so that no visual constant is a
+    magic number, a design-token layer from which every theme is derived, a
+    colour engine that constructs perceptually uniform ramps in CIE LCh with
+    lightness linearisation and chroma-bisection gamut mapping, auditing of any
+    palette under simulated colour-vision deficiency and greyscale using
+    CIEDE2000, exact-physical-size composition and export, and a pre-flight
+    compliance report that checks a plot against a venue before submission,
+    and a provenance-bearing institutional and scientific-journal identity
+    compiler with semantic roles, output modes, explicit typography fallbacks,
+    accessible alternatives, extension, audit, and export. A role-bearing
+    university extension compiles 50 provenance-aware institutional systems for
+    figures, reports, presentations, dashboards, and future document templates
+    without bundling protected marks or proprietary fonts.
+    A scientific-illustration engine reads SVG artwork into real vector
+    geometry rather than rasterising it, resolves stroke weights at the size the
+    figure is actually drawn, and reports the licence position of every borrowed
+    asset. A diagram grammar with typed relations builds participant-flow,
+    causal, compartmental, pathway, pipeline and timeline figures that are
+    checked for the errors those figures can actually contain.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports:
+    ggplot2 (>= 4.0.0),
+    grid,
+    grDevices,
+    scales (>= 1.3.0),
+    farver (>= 2.1.0),
+    colorspace (>= 2.1.0),
+    systemfonts (>= 1.0.0),
+    rlang (>= 1.1.0),
+    cli (>= 3.4.0),
+    stats,
+    utils,
+    xml2 (>= 1.3.0),
+    yaml
+Suggests:
+    jsonlite,
+    png,
+    ragg,
+    svglite,
+    patchwork,
+    sf,
+    testthat (>= 3.0.0),
+    vdiffr,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 8.0.0
+Roxygen: list(markdown = TRUE)
+Config/testthat/edition: 3
+URL: https://github.com/GeoffreyManda/vellum-public
+BugReports: https://github.com/GeoffreyManda/vellum-public/issues

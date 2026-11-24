@@ -1,0 +1,1988 @@
+schema_version: 1.0.0
+generated_on: '2026-07-30'
+package_target: Vellum
+selection:
+  malawi_public:
+    n: 6
+    basis: Current NCHE-listed public universities; not presented as a league table.
+  russell_group:
+    n: 24
+    basis: All current Russell Group member universities.
+  usa_qs2027_top20:
+    n: 20
+    basis: First 20 US universities appearing in QS World University Rankings 2027.
+provenance_classes:
+  official_public: Current public brand standards expose usable colour or typography specifications.
+  official_observed: Official channels are public but the package profile combines documented facts with observed
+    current outputs.
+  private_inferred: The full system is restricted or private; tokens are reconstructed from official sites and publications.
+  website_inferred: No public manual located; the profile is a cautious reconstruction from current official web
+    patterns.
+global_rules:
+  identity_is_not_semantics: true
+  logos_bundled: false
+  marks_autoloaded: false
+  minimum_text_contrast: WCAG 2.2 AA
+  font_policy: Reference proprietary fonts in metadata only; default to open substitutes.
+  review_cycle: Re-observe inferred profiles before every major release and at least annually.
+profiles:
+  kuhes:
+    name: Kamuzu University of Health Sciences
+    group: malawi_public
+    order: 1
+    selection_note: Included in the current NCHE public-university tier; palette inferred from official university
+      web and publication patterns where no public brand manual was located.
+    provenance: website_inferred
+    confidence: 0.58
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#004E70'
+      secondary: '#008A9A'
+      accent: '#D2A72C'
+      support_1: '#52A675'
+      support_2: '#7BC6D3'
+      ink: '#132A35'
+      muted: '#5F6B71'
+      rule: '#D5E0E4'
+      surface: '#F2F8F9'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Poppins
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: health_sciences
+    grammar:
+      personality: Clinically credible, humane and research-led.
+      layout: Clear clinical hierarchy, calm white space, modular evidence panels and strong programme labels.
+      data_visualisation: Use navy and teal for evidence streams; gold only for distinction; direct labels and visible
+        uncertainty.
+      avoid: Do not use hospital-style gradients, saturated red as decoration, or the crest as a chart watermark.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Official KUHeS website
+      url: https://www.kuhes.ac.mw/
+  luanar:
+    name: Lilongwe University of Agriculture and Natural Resources
+    group: malawi_public
+    order: 2
+    selection_note: Included in the current NCHE public-university tier; palette inferred from official university
+      web and publication patterns where no public brand manual was located.
+    provenance: website_inferred
+    confidence: 0.57
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#2F6B3C'
+      secondary: '#8A6D1F'
+      accent: '#D2A72C'
+      support_1: '#6EA544'
+      support_2: '#2B7A9B'
+      ink: '#1E2B20'
+      muted: '#657067'
+      rule: '#D6DED5'
+      surface: '#F4F7F1'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Lora
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: agriculture_natural_resources
+    grammar:
+      personality: Grounded, ecological, practical and development-oriented.
+      layout: Organic but disciplined grids, field photography, earth-toned dividers and generous research captions.
+      data_visualisation: Lead with forest green; use gold and earth tones for agriculture categories; blue for
+        water and climate.
+      avoid: Avoid generic leaf motifs on every page, low-contrast greens, or turning all outcomes into traffic-light
+        colours.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Official LUANAR website
+      url: https://luanar.ac.mw/luanar/
+  mubas:
+    name: Malawi University of Business and Applied Sciences
+    group: malawi_public
+    order: 3
+    selection_note: Included in the current NCHE public-university tier; palette inferred from official university
+      web and publication patterns where no public brand manual was located.
+    provenance: website_inferred
+    confidence: 0.61
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#123B63'
+      secondary: '#1E6A8D'
+      accent: '#D49B36'
+      support_1: '#B84A3A'
+      support_2: '#4A8B72'
+      ink: '#17242F'
+      muted: '#66727A'
+      rule: '#D7DEE3'
+      surface: '#F3F6F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Montserrat
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: modern_applied
+    grammar:
+      personality: Applied, entrepreneurial, urban and forward-looking.
+      layout: Strong modular cards, crisp title bands, technical diagrams and contemporary editorial spacing.
+      data_visualisation: Use navy as the analytical spine; blue for comparison; gold for achievement; coral for
+        exceptions or risk.
+      avoid: Avoid crowded innovation iconography, excessive bevels, and using every school colour in one chart.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Official MUBAS website
+      url: https://www.mubas.ac.mw/
+  must_mw:
+    name: Malawi University of Science and Technology
+    group: malawi_public
+    order: 4
+    selection_note: Included in the current NCHE public-university tier; palette inferred from official university
+      web and publication patterns where no public brand manual was located.
+    provenance: website_inferred
+    confidence: 0.6
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#082F4F'
+      secondary: '#007FA3'
+      accent: '#D7A928'
+      support_1: '#B33A3A'
+      support_2: '#5E8E3E'
+      ink: '#12232F'
+      muted: '#62717A'
+      rule: '#D4DEE3'
+      surface: '#F1F6F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Space Grotesk
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: science_technology
+    grammar:
+      personality: Technological, ambitious, precise and nationally developmental.
+      layout: Wide technical grids, prominent research numbers, diagram-friendly layouts and restrained geometric
+        accents.
+      data_visualisation: Navy and cyan carry science; gold denotes excellence; red is reserved for critical findings.
+      avoid: Avoid neon futurism, circuit-board decoration, and dense dark backgrounds behind small scientific text.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Official MUST website
+      url: https://www.must.ac.mw/
+  mzuni:
+    name: Mzuzu University
+    group: malawi_public
+    order: 5
+    selection_note: Included in the current NCHE public-university tier; palette inferred from official university
+      web and publication patterns where no public brand manual was located.
+    provenance: website_inferred
+    confidence: 0.63
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#205B3A'
+      secondary: '#4F8A35'
+      accent: '#D2A22A'
+      support_1: '#2D6E78'
+      support_2: '#8A6A3A'
+      ink: '#17271E'
+      muted: '#627066'
+      rule: '#D4DDD5'
+      surface: '#F2F7F2'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Merriweather
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: civic_green
+    grammar:
+      personality: Rooted, civic, self-reliant and environmentally conscious.
+      layout: Editorial layouts with green-led sectioning, strong community photography and quiet academic typography.
+      data_visualisation: Use deep green for identity, leaf green for secondary series, gold for distinction and
+        teal for innovation.
+      avoid: Avoid bright green body text, decorative vines, or relying on colour alone for environmental categories.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Official Mzuzu University website
+      url: https://www.mzuni.ac.mw/
+  unima:
+    name: University of Malawi
+    group: malawi_public
+    order: 6
+    selection_note: Included in the current NCHE public-university tier; palette inferred from official university
+      web and publication patterns where no public brand manual was located.
+    provenance: website_inferred
+    confidence: 0.6
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#194E38'
+      secondary: '#772A35'
+      accent: '#C6A03A'
+      support_1: '#1D5E7A'
+      support_2: '#6B7A42'
+      ink: '#18221D'
+      muted: '#626B66'
+      rule: '#D5DAD6'
+      surface: '#F5F5F1'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Libre Baskerville
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: heritage_academic
+    grammar:
+      personality: Historic, national, scholarly and institutionally authoritative.
+      layout: Classical serif-led hierarchy, restrained rules, formal title pages and modern evidence graphics.
+      data_visualisation: Use green as the primary institutional field; maroon and gold as ceremonial accents; blue
+        for analytical contrast.
+      avoid: Avoid overusing heraldic motifs, faux parchment backgrounds or tiny crest-derived ornament.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Official University of Malawi website
+      url: https://www.unima.ac.mw/
+  birmingham:
+    name: University of Birmingham
+    group: russell_group
+    order: 1
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_observed
+    confidence: 0.72
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#C8102E'
+      secondary: '#1B365D'
+      accent: '#F3B61F'
+      support_1: '#007D8A'
+      support_2: '#6A2C70'
+      ink: '#1D2329'
+      muted: '#666C70'
+      rule: '#D8DDE1'
+      surface: '#F5F6F7'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Inter Tight
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: modern_civic
+    grammar:
+      personality: Bold, civic, globally ambitious and research-intensive.
+      layout: Large declarative headings, broad white fields and strong red-to-navy section architecture.
+      data_visualisation: Use red for institutional emphasis, navy for analytical continuity and teal/gold as limited
+        accents.
+      avoid: Avoid making red the default for negative values or filling every page with saturated colour.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of Birmingham brand portal
+      url: https://www.birmingham.ac.uk/brand
+  bristol:
+    name: University of Bristol
+    group: russell_group
+    order: 2
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_observed
+    confidence: 0.68
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#B01C2E'
+      secondary: '#172B4D'
+      accent: '#D8A126'
+      support_1: '#007C91'
+      support_2: '#7A4E8A'
+      ink: '#182126'
+      muted: '#667078'
+      rule: '#D7DEE2'
+      surface: '#F5F7F7'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Manrope
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: heritage_modern
+    grammar:
+      personality: Independent, intellectually energetic and city-connected.
+      layout: Confident editorial typography, sharp red accents, generous image crops and compact evidence blocks.
+      data_visualisation: Lead with deep red and navy; use teal for research and gold for distinction.
+      avoid: Avoid generic collegiate crests as decoration and excessive red-on-white small text.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of Bristol style guidance
+      url: https://www.bristol.ac.uk/style-guides/
+  cambridge:
+    name: University of Cambridge
+    group: russell_group
+    order: 3
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_public
+    confidence: 0.97
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#133844'
+      secondary: '#8EE8D8'
+      accent: '#C3E86B'
+      support_1: '#E98300'
+      support_2: '#6A4C93'
+      ink: '#18252B'
+      muted: '#5F696D'
+      rule: '#D2DCDD'
+      surface: '#F4F7F6'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Feijoa
+      reference_body: Open Sans
+      open_display: Source Serif 4
+      open_body: Open Sans
+      mono: IBM Plex Mono
+    design_family: heritage_modern
+    grammar:
+      personality: Exacting, scholarly, contemporary and quietly distinctive.
+      layout: Serif-led editorial hierarchy, Cambridge Blue fields, restrained rules and high-information scientific
+        layouts.
+      data_visualisation: Use dark teal as the ink anchor; Cambridge Blue for identity; Feijoa green and orange
+        as measured categorical accents.
+      avoid: Avoid pseudo-medieval styling, overuse of the light cyan, and unauthorized crest placement.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Cambridge brand colour guidance
+      url: https://www.cam.ac.uk/brand-resources/guidelines/typography-and-colour
+  cardiff:
+    name: Cardiff University
+    group: russell_group
+    order: 4
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: website_inferred
+    confidence: 0.58
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#D32F45'
+      secondary: '#243447'
+      accent: '#E0A82E'
+      support_1: '#007C91'
+      support_2: '#74538D'
+      ink: '#18232C'
+      muted: '#66727A'
+      rule: '#D7DEE2'
+      surface: '#F5F7F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Source Sans 3
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: civic_research
+    grammar:
+      personality: Welsh, civic, inclusive and research-led.
+      layout: Clear bilingual-capable grids, red-led navigation, strong photography and accessible long-form typography.
+      data_visualisation: Use red for identity rather than outcome semantics; navy and teal should carry most analytical
+        series.
+      avoid: Avoid overusing national symbolism, low-contrast red tints and cramped bilingual labels.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Official Cardiff University website
+      url: https://www.cardiff.ac.uk/
+  durham:
+    name: Durham University
+    group: russell_group
+    order: 5
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: website_inferred
+    confidence: 0.67
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#68246D'
+      secondary: '#1B365D'
+      accent: '#D6A84B'
+      support_1: '#2D7F87'
+      support_2: '#8F6AA8'
+      ink: '#1E2024'
+      muted: '#67656B'
+      rule: '#DDD7DF'
+      surface: '#F7F4F7'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Libre Baskerville
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: heritage_academic
+    grammar:
+      personality: Collegiate, historic, rigorous and refined.
+      layout: Serif display typography, palatinate-purple anchors, narrow rules and formal but uncluttered page
+        architecture.
+      data_visualisation: Purple leads identity; navy carries quantitative content; gold should be ceremonial and
+        scarce.
+      avoid: Avoid faux-gothic typography, excessive purple gradients and crest watermarks.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Official Durham University website
+      url: https://www.durham.ac.uk/
+  edinburgh:
+    name: University of Edinburgh
+    group: russell_group
+    order: 6
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: private_inferred
+    confidence: 0.65
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#041E42'
+      secondary: '#007DBA'
+      accent: '#C5003E'
+      support_1: '#00A499'
+      support_2: '#D6A461'
+      ink: '#18212A'
+      muted: '#606B74'
+      rule: '#D5DDE3'
+      surface: '#F3F6F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Inter
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: heritage_modern
+    grammar:
+      personality: Historic, cosmopolitan, intellectually serious and digital-first.
+      layout: Strong navy framing, large editorial headlines, documentary imagery and modular research components.
+      data_visualisation: Navy is primary; blue and teal support data; red is a high-attention accent only.
+      avoid: Avoid tourist-poster aesthetics, tartan decoration and dark pages with weak text contrast.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of Edinburgh brand toolkit
+      url: https://communications-marketing.ed.ac.uk/marketing/brand
+  exeter:
+    name: University of Exeter
+    group: russell_group
+    order: 7
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_observed
+    confidence: 0.7
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#003C71'
+      secondary: '#00A3AD'
+      accent: '#D94F70'
+      support_1: '#F0B323'
+      support_2: '#4F6D3A'
+      ink: '#172B3A'
+      muted: '#64717A'
+      rule: '#D5DEE4'
+      surface: '#F2F7F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Atkinson Hyperlegible
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: modern_research
+    grammar:
+      personality: Optimistic, sustainable, high-performing and outward-looking.
+      layout: Bright, open layouts with strong blue hierarchy, environmental imagery and selective warm accents.
+      data_visualisation: Use navy/cyan for the analytical core; pink and gold only for controlled categorical distinction.
+      avoid: Avoid rainbow palettes, coastal clichés and low-contrast cyan text.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of Exeter visual identity
+      url: https://www.exeter.ac.uk/departments/communication/brand/
+  glasgow:
+    name: University of Glasgow
+    group: russell_group
+    order: 8
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_public
+    confidence: 0.96
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#011451'
+      secondary: '#003865'
+      accent: '#00AEEF'
+      support_1: '#7A3E9D'
+      support_2: '#D79E2B'
+      ink: '#111C33'
+      muted: '#5E6876'
+      rule: '#D2D9E3'
+      surface: '#F4F6FA'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Noto Sans
+      reference_body: Noto Serif
+      open_display: Noto Sans
+      open_body: Noto Serif
+      mono: IBM Plex Mono
+    design_family: heritage_modern
+    grammar:
+      personality: Historic, international, confident and accessible.
+      layout: Deep-blue authority, clean typographic hierarchy and flexible serif/sans editorial compositions.
+      data_visualisation: Use University Blue as the structural anchor; light blue for information and purple/gold
+        as limited accents.
+      avoid: Avoid near-black blue body backgrounds and mixing too many secondary colours.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of Glasgow brand colours
+      url: https://www.gla.ac.uk/myglasgow/brand/visualidentity/colour/
+  imperial:
+    name: Imperial College London
+    group: russell_group
+    order: 9
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: private_inferred
+    confidence: 0.71
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#002147'
+      secondary: '#003E74'
+      accent: '#00AEEF'
+      support_1: '#E40046'
+      support_2: '#7F8C2F'
+      ink: '#162432'
+      muted: '#61707B'
+      rule: '#D3DCE2'
+      surface: '#F2F6F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Meta
+      reference_body: Meta
+      open_display: Source Sans 3
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: science_technology
+    grammar:
+      personality: Scientific, technical, exact and globally authoritative.
+      layout: Dense but disciplined scientific grids, prominent numeric evidence and minimal decoration.
+      data_visualisation: Blue carries identity and analysis; cyan highlights information; magenta is reserved for
+        exceptional contrast.
+      avoid: Avoid sci-fi effects, unnecessary gradients and branding that competes with plots.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Imperial brand platform
+      url: https://www.imperial.ac.uk/brand-style-guide/
+  kings:
+    name: King’s College London
+    group: russell_group
+    order: 10
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: website_inferred
+    confidence: 0.61
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#D2232A'
+      secondary: '#1F2A44'
+      accent: '#D4A72C'
+      support_1: '#5B7F95'
+      support_2: '#7C4D79'
+      ink: '#1A222C'
+      muted: '#676F77'
+      rule: '#D8DDE1'
+      surface: '#F7F5F3'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Source Serif 4
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: heritage_civic
+    grammar:
+      personality: Metropolitan, historic, human and policy-facing.
+      layout: Strong red identifiers, editorial serif headings, urban photography and restrained navy evidence panels.
+      data_visualisation: Use navy for most data; red for institutional emphasis; gold only for ceremonial distinction.
+      avoid: Avoid using red for all adverse outcomes and overloading pages with London imagery.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Official King’s College London website
+      url: https://www.kcl.ac.uk/
+  leeds:
+    name: University of Leeds
+    group: russell_group
+    order: 11
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_public
+    confidence: 0.95
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#910000'
+      secondary: '#C70000'
+      accent: '#FF4E36'
+      support_1: '#005A70'
+      support_2: '#F2B134'
+      ink: '#1E1E1E'
+      muted: '#676767'
+      rule: '#D9D9D9'
+      surface: '#F7F5F3'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Freight Sans Pro
+      reference_body: Freight Text Pro
+      open_display: Source Sans 3
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: editorial_research
+    grammar:
+      personality: Direct, energetic, research-rich and human.
+      layout: Strong red title architecture, editorial serif text and clear modular calls to action.
+      data_visualisation: Use deepest red as identity, dark teal for analytical series and coral sparingly for emphasis.
+      avoid: Avoid multiple competing reds and using the brightest coral for body text.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of Leeds colour guidance
+      url: https://spotlight.leeds.ac.uk/brand-guidelines/colour/
+  liverpool:
+    name: University of Liverpool
+    group: russell_group
+    order: 12
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: website_inferred
+    confidence: 0.61
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#C8102E'
+      secondary: '#1E2A3A'
+      accent: '#F2A900'
+      support_1: '#008C95'
+      support_2: '#6D4C7D'
+      ink: '#18222C'
+      muted: '#67717A'
+      rule: '#D8DEE2'
+      surface: '#F5F6F7'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Source Sans 3
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: civic_research
+    grammar:
+      personality: Civic, purposeful, globally connected and evidence-led.
+      layout: Red-led identity bars, generous editorial image zones and compact quantitative modules.
+      data_visualisation: Use navy and teal for data; reserve red for identity and decisive callouts.
+      avoid: Avoid football-club visual language and repetitive red chart series.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Official University of Liverpool website
+      url: https://www.liverpool.ac.uk/
+  lse:
+    name: London School of Economics and Political Science
+    group: russell_group
+    order: 13
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_observed
+    confidence: 0.73
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#E31B23'
+      secondary: '#252525'
+      accent: '#F2B134'
+      support_1: '#005A70'
+      support_2: '#6A4C93'
+      ink: '#151515'
+      muted: '#626262'
+      rule: '#D8D8D8'
+      surface: '#F7F7F5'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Inter Tight
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: policy_editorial
+    grammar:
+      personality: Analytical, urban, provocative and policy-oriented.
+      layout: Black-red editorial hierarchy, assertive headlines, information-dense charts and disciplined footnotes.
+      data_visualisation: Use black and neutral grays for most content; red for institutional emphasis; teal/gold
+        for data categories.
+      avoid: Avoid red as the universal negative colour and overdecorating economic charts.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: LSE brand portal
+      url: https://info.lse.ac.uk/staff/divisions/communications-division/brand
+  manchester:
+    name: University of Manchester
+    group: russell_group
+    order: 14
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_public
+    confidence: 0.93
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#6B2C91'
+      secondary: '#FFCC33'
+      accent: '#1E1E1E'
+      support_1: '#00A3A1'
+      support_2: '#D74F70'
+      ink: '#1B1720'
+      muted: '#69626D'
+      rule: '#DDD7E1'
+      surface: '#F8F5FA'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Effra
+      reference_body: Minion
+      open_display: Open Sans
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: modern_civic
+    grammar:
+      personality: Confident, pioneering, inclusive and industrially connected.
+      layout: Purple-led blocks, strong yellow accents, flexible serif/sans hierarchy and bold research statements.
+      data_visualisation: Purple is the identity anchor; yellow is an accent, never body text; teal supports quantitative
+        differentiation.
+      avoid: Avoid black-yellow hazard-striping and using yellow on white.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of Manchester typography guidance
+      url: https://www.staffnet.manchester.ac.uk/brand/visual-identity/typography/
+  newcastle:
+    name: Newcastle University
+    group: russell_group
+    order: 15
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_public
+    confidence: 0.91
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#003A65'
+      secondary: '#00857E'
+      accent: '#D50032'
+      support_1: '#FFB81C'
+      support_2: '#5C4B8A'
+      ink: '#172633'
+      muted: '#60717A'
+      rule: '#D3DDE1'
+      surface: '#F2F7F7'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Derailed
+      reference_body: Helvetica
+      open_display: Bebas Neue
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: modern_civic
+    grammar:
+      personality: Bold, northern, connected and impact-focused.
+      layout: Strong display headlines, navy structure, teal interaction states and energetic accent blocks.
+      data_visualisation: Navy and teal lead; red and yellow are limited highlights; direct labels are preferred.
+      avoid: Avoid using the display face for body copy and overusing accent colours.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Newcastle University colour guidance
+      url: https://www.ncl.ac.uk/design-system/styles/colours/
+  nottingham:
+    name: University of Nottingham
+    group: russell_group
+    order: 16
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_observed
+    confidence: 0.72
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#10263B'
+      secondary: '#005A70'
+      accent: '#00B2A9'
+      support_1: '#D65A31'
+      support_2: '#7A5C9E'
+      ink: '#17232D'
+      muted: '#62707A'
+      rule: '#D4DDE2'
+      surface: '#F3F7F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Inter
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: modern_research
+    grammar:
+      personality: Contemporary, global, research-centred and calm.
+      layout: Deep-blue hierarchy, bright teal accents, white-dominant layouts and large evidence-led imagery.
+      data_visualisation: Use Nottingham Blue for structure; teal for data; orange/purple for sparse categorical
+        contrast.
+      avoid: Avoid substituting black for the core blue and overusing bright accents.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of Nottingham visual identity
+      url: https://www.nottingham.ac.uk/brand/visual-identity.aspx
+  oxford:
+    name: University of Oxford
+    group: russell_group
+    order: 17
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_public
+    confidence: 0.98
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#002147'
+      secondary: '#2F6F8F'
+      accent: '#BEA55D'
+      support_1: '#7F2A48'
+      support_2: '#5B7F53'
+      ink: '#141F2B'
+      muted: '#626B73'
+      rule: '#D4DADF'
+      surface: '#F6F5F1'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Marcellus
+      reference_body: Roboto / Noto Serif
+      open_display: Marcellus
+      open_body: Noto Serif
+      mono: IBM Plex Mono
+    design_family: heritage_academic
+    grammar:
+      personality: Scholarly, authoritative, historic and precise.
+      layout: Classical editorial hierarchy, Oxford Blue anchors, subtle rules and careful long-form typesetting.
+      data_visualisation: Blue dominates identity; muted gold and wine are accents; charts remain restrained and
+        publication-like.
+      avoid: Avoid faux-manuscript styling, overuse of gold and unauthorized use of the arms.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Oxford digital brand typography and colour
+      url: https://communications.web.ox.ac.uk/brand
+  qmul:
+    name: Queen Mary University of London
+    group: russell_group
+    order: 18
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: private_inferred
+    confidence: 0.59
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#D50032'
+      secondary: '#21314D'
+      accent: '#F2B134'
+      support_1: '#007E87'
+      support_2: '#7C4D79'
+      ink: '#18212D'
+      muted: '#66717A'
+      rule: '#D7DEE2'
+      surface: '#F5F7F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Source Sans 3
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: urban_research
+    grammar:
+      personality: Inclusive, metropolitan, socially engaged and research-driven.
+      layout: Red identifiers, navy structure, diverse people-centred imagery and accessible modular content.
+      data_visualisation: Use navy and teal for charts; retain red for identity and exceptional emphasis.
+      avoid: Avoid overusing red or turning diversity into decorative iconography.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Queen Mary brand portal
+      url: https://www.qmul.ac.uk/brand/
+  qub:
+    name: Queen’s University Belfast
+    group: russell_group
+    order: 19
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: private_inferred
+    confidence: 0.6
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#B90E34'
+      secondary: '#1D2A3A'
+      accent: '#D6A54B'
+      support_1: '#006F7D'
+      support_2: '#6C4D80'
+      ink: '#18222C'
+      muted: '#66717A'
+      rule: '#D7DEE3'
+      surface: '#F6F5F2'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Libre Baskerville
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: heritage_civic
+    grammar:
+      personality: Historic, civic, ambitious and place-conscious.
+      layout: Maroon-led identity, formal serif headings, documentary photography and clear evidence panels.
+      data_visualisation: Use navy/teal for quantitative content; maroon for institutional emphasis; gold sparingly.
+      avoid: Avoid excessive heraldic ornament and low-contrast maroon tints.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Queen’s University Belfast brand toolkit
+      url: https://www.qub.ac.uk/sites/brand/
+  sheffield:
+    name: University of Sheffield
+    group: russell_group
+    order: 20
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_public
+    confidence: 0.91
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#440099'
+      secondary: '#E7004C'
+      accent: '#FFB81C'
+      support_1: '#007D8A'
+      support_2: '#6CC24A'
+      ink: '#21152C'
+      muted: '#6A6170'
+      rule: '#DDD5E3'
+      surface: '#F7F4F9'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Source Sans
+      reference_body: Source Serif
+      open_display: Source Sans 3
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: bold_modern
+    grammar:
+      personality: Bold, creative, civic and intellectually open.
+      layout: Violet-led structure, high-impact colour blocks, large type and energetic but accessible white space.
+      data_visualisation: Violet anchors identity; pink, amber, teal and green form a controlled categorical set.
+      avoid: Avoid using all bright colours simultaneously or placing pink/yellow text on white.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of Sheffield brand typography
+      url: https://www.sheffield.ac.uk/brand/visual-identity/typography
+  southampton:
+    name: University of Southampton
+    group: russell_group
+    order: 21
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: website_inferred
+    confidence: 0.58
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#002A5C'
+      secondary: '#007C91'
+      accent: '#F2A900'
+      support_1: '#D3435C'
+      support_2: '#5F6D3A'
+      ink: '#162637'
+      muted: '#62717A'
+      rule: '#D4DDE2'
+      surface: '#F2F7F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Inter
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: science_civic
+    grammar:
+      personality: Research-intensive, maritime, inventive and outward-facing.
+      layout: Deep-blue technical hierarchy, cyan accents, bright research imagery and precise modular grids.
+      data_visualisation: Use navy/cyan for data; gold and coral only as limited accents.
+      avoid: Avoid nautical clichés, waves as decoration and low-contrast cyan labels.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Official University of Southampton website
+      url: https://www.southampton.ac.uk/
+  ucl:
+    name: University College London
+    group: russell_group
+    order: 22
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_public
+    confidence: 0.94
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#332A40'
+      secondary: '#6D3F8C'
+      accent: '#30D6FF'
+      support_1: '#EEDEFF'
+      support_2: '#D64B63'
+      ink: '#19161F'
+      muted: '#6A6470'
+      rule: '#DCD7E0'
+      surface: '#F8F6F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: UCL Sans
+      reference_body: UCL Sans
+      open_display: DM Sans
+      open_body: DM Sans
+      mono: IBM Plex Mono
+    design_family: urban_modern
+    grammar:
+      personality: Progressive, metropolitan, interdisciplinary and experimental.
+      layout: Off-white fields, dark-purple hierarchy, bright blue interruptions and contemporary modular compositions.
+      data_visualisation: Dark purple carries structure; bright blue is an accent, not body text; use muted purple
+        for additional series.
+      avoid: Avoid using every UCL colour in a single figure and do not recreate the portico mark.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: UCL colour and typography guidance
+      url: https://www.ucl.ac.uk/brand/visual-identity
+  warwick:
+    name: University of Warwick
+    group: russell_group
+    order: 23
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: official_observed
+    confidence: 0.72
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#552D62'
+      secondary: '#8E3A80'
+      accent: '#E5007E'
+      support_1: '#008A8A'
+      support_2: '#D6A84B'
+      ink: '#211A24'
+      muted: '#6B626D'
+      rule: '#DED7E0'
+      surface: '#F8F5F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Inter Tight
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: modern_research
+    grammar:
+      personality: Inventive, collaborative, energetic and contemporary.
+      layout: Aubergine-led identity, generous white space, bright accent interventions and clear editorial rhythm.
+      data_visualisation: Aubergine anchors; teal supports evidence; pink and gold are sparse attention colours.
+      avoid: Avoid overusing magenta and combining all accents in one chart.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of Warwick brand colour guidance
+      url: https://warwick.ac.uk/services/communications/brand/
+  york:
+    name: University of York
+    group: russell_group
+    order: 24
+    selection_note: Member of the 24-university Russell Group registry.
+    provenance: private_inferred
+    confidence: 0.67
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#071D49'
+      secondary: '#0057B8'
+      accent: '#F2B134'
+      support_1: '#00A499'
+      support_2: '#B04A6F'
+      ink: '#121C2D'
+      muted: '#606B78'
+      rule: '#D2DBE5'
+      surface: '#F3F7FA'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: York Grot
+      reference_body: York Grot
+      open_display: Manrope
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: modern_civic
+    grammar:
+      personality: Distinctive, humane, rigorous and future-facing.
+      layout: Deep-blue structure, rounded framing devices, confident display type and spacious editorial composition.
+      data_visualisation: Use deep blue as the anchor; bright blue and teal for data; gold/rose as restricted accents.
+      avoid: Avoid excessive rounded containers and treating the bespoke face as freely distributable.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of York brand guidance
+      url: https://www.york.ac.uk/staff/brand/
+  mit:
+    name: Massachusetts Institute of Technology
+    group: usa_qs2027_top20
+    order: 1
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.96
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#A31F34'
+      secondary: '#8A8B8C'
+      accent: '#ED1C24'
+      support_1: '#006E74'
+      support_2: '#C6A15B'
+      ink: '#1B1B1B'
+      muted: '#666666'
+      rule: '#D7D7D7'
+      surface: '#F5F5F5'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Neue Haas Grotesk
+      reference_body: Neue Haas Grotesk
+      open_display: Inter
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: science_technology
+    grammar:
+      personality: Technical, reductionist, bold and intellectually direct.
+      layout: Severe grids, large numerals, black-white-red contrast and minimal decorative treatment.
+      data_visualisation: Red is institutional emphasis; neutral ink should dominate scientific content; teal/gold
+        are limited chart supports.
+      avoid: Avoid futuristic clichés, excessive red fills and decorative circuit imagery.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: MIT brand typography
+      url: https://brand.mit.edu/visual-identity/typography
+  stanford:
+    name: Stanford University
+    group: usa_qs2027_top20
+    order: 2
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.99
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#8C1515'
+      secondary: '#2E2D29'
+      accent: '#B1040E'
+      support_1: '#008566'
+      support_2: '#DAD7CB'
+      ink: '#1F1F1F'
+      muted: '#5F5E5B'
+      rule: '#D5D3CE'
+      surface: '#F7F6F2'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Source Sans 3
+      reference_body: Source Serif 4
+      open_display: Source Sans 3
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: heritage_modern
+    grammar:
+      personality: Warm, rigorous, human and innovation-oriented.
+      layout: Cardinal accents, sandstone neutrals, refined serif/sans hierarchy and generous page breathing room.
+      data_visualisation: Cardinal anchors identity; green supports positive/land themes; neutrals dominate analytical
+        content.
+      avoid: Avoid using cardinal for every adverse outcome or placing small cardinal text on dark backgrounds.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Stanford identity colours
+      url: https://identity.stanford.edu/design-elements/color/
+  harvard:
+    name: Harvard University
+    group: usa_qs2027_top20
+    order: 3
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_observed
+    confidence: 0.78
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#A51C30'
+      secondary: '#1E1E1E'
+      accent: '#C6A15B'
+      support_1: '#4E6E81'
+      support_2: '#7A6A8B'
+      ink: '#171717'
+      muted: '#656565'
+      rule: '#D8D5D2'
+      surface: '#F7F5F2'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Canela
+      reference_body: Trueno
+      open_display: Source Serif 4
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: heritage_academic
+    grammar:
+      personality: Authoritative, editorial, historic and intellectually expansive.
+      layout: Crimson identifiers, strong serif display hierarchy, black editorial structure and restrained warm
+        neutrals.
+      data_visualisation: Crimson is identity, not default negative; use blue-gray and muted violet for analytical
+        contrast.
+      avoid: Avoid faux-Ivy ornament, overuse of shields and long crimson text passages.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Harvard brand resources
+      url: https://www.harvard.edu/brand/
+  caltech:
+    name: California Institute of Technology
+    group: usa_qs2027_top20
+    order: 4
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.9
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#FF6C0C'
+      secondary: '#003B5C'
+      accent: '#E04F16'
+      support_1: '#00A3A1'
+      support_2: '#6C5B7B'
+      ink: '#1D252C'
+      muted: '#65717A'
+      rule: '#D8DEE2'
+      surface: '#F4F7F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Avenir Next
+      reference_body: Adobe Caslon
+      open_display: Inter
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: science_technology
+    grammar:
+      personality: Precise, unconventional, compact and research-first.
+      layout: Orange signals identity within otherwise restrained technical layouts and compact scientific grids.
+      data_visualisation: Use navy/teal for most data; orange for focus and institutional cues, never every series.
+      avoid: Avoid orange body text, space-themed decoration and dense black backgrounds.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Caltech identity colour guidance
+      url: https://identity.caltech.edu/colors
+  upenn:
+    name: University of Pennsylvania
+    group: usa_qs2027_top20
+    order: 5
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_observed
+    confidence: 0.82
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#011F5B'
+      secondary: '#990000'
+      accent: '#F2C100'
+      support_1: '#007E87'
+      support_2: '#7A4E8A'
+      ink: '#141E2B'
+      muted: '#606B76'
+      rule: '#D4DCE3'
+      surface: '#F5F6F7'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Cormorant Garamond
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: heritage_civic
+    grammar:
+      personality: Historic, urban, interdisciplinary and ambitious.
+      layout: Penn Blue structure, Penn Red identifiers, classical serif display and modern information architecture.
+      data_visualisation: Blue should carry data; red denotes identity; gold is rare and ceremonial.
+      avoid: Avoid red-blue competition on every panel and overusing shield-derived geometry.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Penn web identity colours
+      url: https://branding.web-resources.upenn.edu/web-identity/color
+  cornell:
+    name: Cornell University
+    group: usa_qs2027_top20
+    order: 6
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.91
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#B31B1B'
+      secondary: '#222222'
+      accent: '#D0A94B'
+      support_1: '#006699'
+      support_2: '#6B5B7A'
+      ink: '#1B1B1B'
+      muted: '#666666'
+      rule: '#D7D7D7'
+      surface: '#F7F7F5'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Source Serif 4
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: heritage_modern
+    grammar:
+      personality: Practical, rigorous, broad and service-oriented.
+      layout: Cornell Red accents, black editorial structure, clear serif/sans hierarchy and utilitarian research
+        graphics.
+      data_visualisation: Use black/blue for most analysis; red is identity; gold and violet are restricted category
+        accents.
+      avoid: Avoid large uninterrupted red fields and using Cornell Red as a semantic danger colour by default.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Cornell brand colour guidance
+      url: https://brand.cornell.edu/design-center/colors/
+  yale:
+    name: Yale University
+    group: usa_qs2027_top20
+    order: 7
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.97
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#00356B'
+      secondary: '#286DC0'
+      accent: '#D9B44A'
+      support_1: '#5B7F6A'
+      support_2: '#7B567A'
+      ink: '#162231'
+      muted: '#626E78'
+      rule: '#D4DDE4'
+      surface: '#F5F7F8'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Yale
+      reference_body: Mallory
+      open_display: Libre Baskerville
+      open_body: Arial
+      mono: IBM Plex Mono
+    design_family: heritage_academic
+    grammar:
+      personality: Scholarly, restrained, literary and institutionally confident.
+      layout: Deep-blue classical hierarchy, highly controlled typography, narrow rules and calm page rhythm.
+      data_visualisation: Yale Blue anchors identity; lighter blue carries data; gold/green/violet are sparse supports.
+      avoid: Avoid decorative collegiate motifs and substituting unlicensed Yale typefaces without notice.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Yale identity typography
+      url: https://identity.yale.edu/typography
+  johns_hopkins:
+    name: Johns Hopkins University
+    group: usa_qs2027_top20
+    order: 8
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.98
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#002D72'
+      secondary: '#68ACE5'
+      accent: '#CFB87C'
+      support_1: '#007C91'
+      support_2: '#7A4E8A'
+      ink: '#152338'
+      muted: '#617083'
+      rule: '#D3DDE8'
+      surface: '#F3F7FA'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Hopkins Slab
+      reference_body: Work Sans / Source Serif 4
+      open_display: Roboto Slab
+      open_body: Work Sans
+      mono: IBM Plex Mono
+    design_family: health_sciences
+    grammar:
+      personality: Evidence-led, clinical, global and exact.
+      layout: Strong blue hierarchy, slab-serif emphasis, clear data labels and modular health-research components.
+      data_visualisation: Heritage blue anchors; light blue supports information; gold and teal are limited analytical
+        accents.
+      avoid: Avoid using the seal, excessive medical iconography and low-contrast pale blue text.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Johns Hopkins typography guidance
+      url: https://brand.jhu.edu/visual-identity/typography/
+  uc_berkeley:
+    name: University of California, Berkeley
+    group: usa_qs2027_top20
+    order: 9
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.99
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#002676'
+      secondary: '#FDB515'
+      accent: '#3B7EA1'
+      support_1: '#C4820E'
+      support_2: '#00A598'
+      ink: '#18233A'
+      muted: '#657080'
+      rule: '#D4DDE7'
+      surface: '#F4F7FA'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Inter
+      reference_body: Source Serif 4
+      open_display: Inter
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: civic_research
+    grammar:
+      personality: Public, intellectually bold, Californian and research-intensive.
+      layout: Berkeley Blue structure, California Gold accents, open editorial layouts and clear evidence blocks.
+      data_visualisation: Blue carries identity and data; gold highlights distinction; teal and ochre support categories.
+      avoid: Avoid gold body text, blue-gold saturation on every panel and use of the seal without permission.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: UC Berkeley brand colours
+      url: https://brand.berkeley.edu/visual-identity/colors
+  uchicago:
+    name: University of Chicago
+    group: usa_qs2027_top20
+    order: 10
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.91
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#800000'
+      secondary: '#565A5C'
+      accent: '#D6D6CE'
+      support_1: '#007396'
+      support_2: '#C1666B'
+      ink: '#1D1D1D'
+      muted: '#656565'
+      rule: '#D7D7D2'
+      surface: '#F7F6F2'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Gotham
+      reference_body: Gotham
+      open_display: Montserrat
+      open_body: EB Garamond
+      mono: IBM Plex Mono
+    design_family: heritage_modern
+    grammar:
+      personality: Rigorous, austere, argumentative and intellectually serious.
+      layout: Maroon accents, black-gray editorial hierarchy, restrained spacing and dense but readable analytical
+        composition.
+      data_visualisation: Maroon is identity; blue supports data; warm gray should dominate secondary structure.
+      avoid: Avoid pseudo-gothic styling, maroon-on-black and overcompressed academic pages.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of Chicago brand colour system
+      url: https://creative.uchicago.edu/resources/identity-guidelines/color-palette/
+  princeton:
+    name: Princeton University
+    group: usa_qs2027_top20
+    order: 11
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: private_inferred
+    confidence: 0.78
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#E77500'
+      secondary: '#000000'
+      accent: '#F2B134'
+      support_1: '#006F7D'
+      support_2: '#7A5B83'
+      ink: '#151515'
+      muted: '#626262'
+      rule: '#D8D8D8'
+      surface: '#F7F5F2'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Princeton Monticello
+      reference_body: Arial
+      open_display: Libre Baskerville
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: heritage_academic
+    grammar:
+      personality: Historic, selective, formal and intellectually exacting.
+      layout: Black-white structure, orange identifiers, classical serif display and restrained scholarly pacing.
+      data_visualisation: Black and neutral gray dominate data; orange is a focal identity accent; teal/violet are
+        limited supports.
+      avoid: Avoid orange page floods, tiger-striping and unauthorized shield or seal reproduction.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Princeton brand colour guidance
+      url: https://communications.princeton.edu/guides-tools/logo-graphic-identity
+  columbia:
+    name: Columbia University
+    group: usa_qs2027_top20
+    order: 12
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.94
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#B9D9EB'
+      secondary: '#0033A0'
+      accent: '#022169'
+      support_1: '#0072CE'
+      support_2: '#6A4C93'
+      ink: '#12213A'
+      muted: '#5F6D7A'
+      rule: '#D4DEE7'
+      surface: '#F3F7FA'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Trajan Pro
+      reference_body: Adobe Garamond Pro / Proxima Nova
+      open_display: Cinzel
+      open_body: EB Garamond
+      mono: IBM Plex Mono
+    design_family: heritage_civic
+    grammar:
+      personality: Metropolitan, classical, global and editorial.
+      layout: Columbia Blue fields, dark-blue structure, classical display capitals and refined editorial typography.
+      data_visualisation: Use dark blue for readable data; pale Columbia Blue as surface or identity field; bright
+        blue/violet as supports.
+      avoid: Avoid pale-blue text on white, faux-classical ornament and unlicensed fonts without fallbacks.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Columbia visual identity typography
+      url: https://visualidentity.columbia.edu/content/typography
+  northwestern:
+    name: Northwestern University
+    group: usa_qs2027_top20
+    order: 13
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.98
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#4E2A84'
+      secondary: '#342F2E'
+      accent: '#836EAA'
+      support_1: '#00A6A6'
+      support_2: '#D9A441'
+      ink: '#211A2C'
+      muted: '#68616F'
+      rule: '#DCD5E2'
+      surface: '#F8F5FA'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Campton / Akkurat Pro
+      reference_body: Periodico
+      open_display: Poppins
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: modern_research
+    grammar:
+      personality: Modern, connected, energetic and distinctly purple.
+      layout: White-dominant layouts, purple hierarchy, slash/facet-inspired movement and flexible editorial typography.
+      data_visualisation: Purple anchors identity; teal and gold offer limited analytical distinction; neutrals
+        remain dominant.
+      avoid: Avoid filling every surface purple and repeating purple tints as indistinguishable categories.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Northwestern colour palette
+      url: https://www.northwestern.edu/brand/visual-identity/color-palettes/
+  ucla:
+    name: University of California, Los Angeles
+    group: usa_qs2027_top20
+    order: 14
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.99
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#2774AE'
+      secondary: '#FFD100'
+      accent: '#003B5C'
+      support_1: '#8BB8E8'
+      support_2: '#00A99D'
+      ink: '#1A2733'
+      muted: '#666666'
+      rule: '#D8E0E5'
+      surface: '#F3F8FC'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Karbon
+      reference_body: Helvetica / Arial / Roboto
+      open_display: Montserrat
+      open_body: Roboto
+      mono: IBM Plex Mono
+    design_family: civic_bright
+    grammar:
+      personality: Bright, public, optimistic and distinctly Californian.
+      layout: Blue-dominant layouts, lavish white space, gold accents and clean modern sans-serif hierarchy.
+      data_visualisation: Blue carries identity and data; gold is accent only; light blue and teal support categories.
+      avoid: Avoid gold text on dark blue, unofficial tints and overly dark overall layouts.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: UCLA brand colours
+      url: https://brand.ucla.edu/identity/colors
+  umich:
+    name: University of Michigan–Ann Arbor
+    group: usa_qs2027_top20
+    order: 15
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.96
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#00274C'
+      secondary: '#FFCB05'
+      accent: '#2F65A7'
+      support_1: '#00A6D6'
+      support_2: '#A5A508'
+      ink: '#172335'
+      muted: '#626E79'
+      rule: '#D5DDE4'
+      surface: '#F4F7FA'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Montserrat
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: civic_research
+    grammar:
+      personality: Public, confident, high-performing and community-scaled.
+      layout: Michigan Blue structure, maize accents, large numeric evidence and practical, accessible layouts.
+      data_visualisation: Blue should dominate; maize highlights only; cyan and olive support selected categories.
+      avoid: Avoid maize body text, blue-maize alternation on every element and athletic visual language in academic
+        figures.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: University of Michigan brand colours
+      url: https://brand.umich.edu/design-resources/colors/
+  cmu:
+    name: Carnegie Mellon University
+    group: usa_qs2027_top20
+    order: 16
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.97
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#C41230'
+      secondary: '#000000'
+      accent: '#6D6E71'
+      support_1: '#E0E0E0'
+      support_2: '#00A3A1'
+      ink: '#1A1A1A'
+      muted: '#666666'
+      rule: '#D7D7D7'
+      surface: '#F5F5F5'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Inter Tight
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: science_creative
+    grammar:
+      personality: Technical, creative, systems-oriented and exact.
+      layout: Red-black identity, tartan-informed modularity, clean technical typography and highly structured information.
+      data_visualisation: Black and gray dominate analysis; Carnegie Red marks focus; teal is a limited contrasting
+        support.
+      avoid: Avoid tartan in dense scientific charts, excessive red backgrounds and decorative robotics imagery.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Carnegie Mellon brand colours
+      url: https://brand.cmu.edu/visual-identity/colors
+  nyu:
+    name: New York University
+    group: usa_qs2027_top20
+    order: 17
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.94
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#57068C'
+      secondary: '#330662'
+      accent: '#AB82C5'
+      support_1: '#00A99D'
+      support_2: '#D6A84B'
+      ink: '#21132A'
+      muted: '#6A6170'
+      rule: '#DED5E3'
+      surface: '#F8F5FA'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: null
+      reference_body: null
+      open_display: Inter
+      open_body: Source Serif 4
+      mono: IBM Plex Mono
+    design_family: urban_modern
+    grammar:
+      personality: Metropolitan, global, creative and energetic.
+      layout: Violet-led identity, black-white editorial structure, contemporary modular cards and bold urban imagery.
+      data_visualisation: Violet anchors identity; deep violet for dark fields; teal and gold support categories.
+      avoid: Avoid purple gradients without purpose, low-contrast violet text and torch-derived decorative imitation.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: NYU design elements
+      url: https://www.nyu.edu/employees/resources-and-services/media-and-communications/nyu-brand-guidelines.html
+  brown:
+    name: Brown University
+    group: usa_qs2027_top20
+    order: 18
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_observed
+    confidence: 0.83
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#4E3629'
+      secondary: '#C00404'
+      accent: '#FFC72C'
+      support_1: '#006F7D'
+      support_2: '#7A5A86'
+      ink: '#211C19'
+      muted: '#69615C'
+      rule: '#DDD7D2'
+      surface: '#F8F6F3'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Minion
+      reference_body: Minion
+      open_display: Source Serif 4
+      open_body: Source Sans 3
+      mono: IBM Plex Mono
+    design_family: heritage_warm
+    grammar:
+      personality: Open, humanistic, warm and intellectually independent.
+      layout: Warm-brown structure, red identifiers, generous serif typography and tactile but clean editorial surfaces.
+      data_visualisation: Brown/ink should dominate; red is identity; gold and teal are controlled accents.
+      avoid: Avoid sepia nostalgia, overuse of red and unauthorized logo modification.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Brown visual identity standards
+      url: https://ouc.brown.edu/logos-identity/visual-identity-policy-and-standards
+  duke:
+    name: Duke University
+    group: usa_qs2027_top20
+    order: 19
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.96
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#012169'
+      secondary: '#00539B'
+      accent: '#58595B'
+      support_1: '#C84E00'
+      support_2: '#F2A900'
+      ink: '#15233A'
+      muted: '#616B76'
+      rule: '#D4DCE4'
+      surface: '#F3F7FA'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: Open Sans
+      reference_body: EB Garamond
+      open_display: Open Sans
+      open_body: EB Garamond
+      mono: IBM Plex Mono
+    design_family: heritage_modern
+    grammar:
+      personality: Confident, interdisciplinary, global and service-oriented.
+      layout: Navy structure, royal-blue accents, strong serif/sans hierarchy and clean research presentation.
+      data_visualisation: At least one Duke blue carries identity; copper/gold are limited category accents.
+      avoid: Avoid athletics-first styling, blue-on-blue low contrast and changing blue saturation.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: Duke brand colours
+      url: https://brand.duke.edu/colors/
+  ut_austin:
+    name: The University of Texas at Austin
+    group: usa_qs2027_top20
+    order: 20
+    selection_note: Included as one of the first 20 US universities appearing in the QS World University Rankings
+      2027; order records the US-only sequence, not the global rank.
+    provenance: official_public
+    confidence: 0.99
+    verified_on: '2026-07-30'
+    colours:
+      primary: '#BF5700'
+      secondary: '#333F48'
+      accent: '#005F86'
+      support_1: '#00A9B7'
+      support_2: '#D6D2C4'
+      ink: '#1D2429'
+      muted: '#626B70'
+      rule: '#D7D9D7'
+      surface: '#F7F5F1'
+      background: '#FFFFFF'
+    fonts:
+      reference_display: GT Sectra
+      reference_body: Benton Sans
+      open_display: Charis SIL
+      open_body: Libre Franklin
+      mono: IBM Plex Mono
+    design_family: heritage_modern
+    grammar:
+      personality: Bold, public, Texan and academically grounded.
+      layout: Burnt-orange identifiers, charcoal structure, serif wordmark character and spacious modern layouts.
+      data_visualisation: Charcoal/blue should carry most data; burnt orange is identity focus; teal is a secondary
+        analytical accent.
+      avoid: Avoid tints of burnt orange, red/purple combinations and all-orange charts.
+    legal:
+      bundle_logos: false
+      autoload_marks: false
+      note: Theme tokens do not confer permission to use the university name, crest, seal, wordmark or trademarks.
+    sources:
+    - label: UT Austin visual identity
+      url: https://umac.utexas.edu/brand-center/visual-identity/

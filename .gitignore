@@ -1,0 +1,13 @@
+manifest.md
+plan.md
+.session.md
+.Rhistory
+.RData
+.Rproj.user/
+src/*.o
+src/*.so
+src/*.dll
+src/rust/target/
+*.Rcheck/
+*.tar.gz
+Rplots.pdf
