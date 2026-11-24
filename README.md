@@ -1,17 +1,28 @@
 # vellum
 
-Public source variant of the vellum R package.
+Scientific figures and plotting recipes.
 
-Provides scientific figure themes, colour palettes, diagrams and plotting recipes. Examples and tests use package fixtures; private research figures and website material are excluded.
+## Install
 
-## Installation
+```r
+install.packages("remotes")
+remotes::install_github("GeoffreyManda/vellum-public")
+```
 
-Install with `remotes::install_github("GeoffreyManda/vellum-public")`, or use `R CMD INSTALL` on the source after installing the dependencies declared in `DESCRIPTION`.
+See the [getting started guide](docs/getting-started.md) for system requirements, a worked example, output interpretation and troubleshooting.
 
-## Licence and credits
+## Run the example
 
-The original licence and contributor notices are retained in the package metadata and licence files.
+```r
+source(system.file("examples", "worked-example.R", package = "vellum"))
+```
 
-## Validation
+The example uses synthetic inputs and cleans up its temporary output. Its source is [inst/examples/worked-example.R](inst/examples/worked-example.R).
 
-The public variant passed its full local test suite, including two visual-regression expectations, on 24 November 2026. No warnings or skips were reported.
+## Checks
+
+[GitHub Actions](https://github.com/GeoffreyManda/vellum-public/actions/workflows/package-checks.yaml) installs the package, runs the installed tests and executes the example on Ubuntu with the current R release.
+
+## Licence and contributors
+
+Original licence and contributor notices are retained in `DESCRIPTION` and the licence files.
